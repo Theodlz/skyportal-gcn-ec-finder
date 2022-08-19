@@ -62,7 +62,7 @@ def main():
     analyse_sources_in_gcn(analysis_service=analysis_service, skyportal_url=skyportal_url, skyportal_token=skyportal_token)
     end_time = time.perf_counter()
     log('Time elapsed: {:.2f} seconds'.format(end_time - start_time))
-    time.sleep(60)
+    time.sleep(60*2)
 
 if __name__ == '__main__':
     main()
