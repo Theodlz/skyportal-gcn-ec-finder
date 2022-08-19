@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  analyse_sources_in_gcn:
+    build: .
+    network_mode: host
+

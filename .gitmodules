@@ -1,0 +1,3 @@
+[submodule "skyportal-dumps"]
+	path = skyportal-dumps
+	url = https://github.com/Theodlz/skyportal-dumps.git
